@@ -34,8 +34,8 @@
 </template>
 
 <script>
-import ScrollHorizontal from './plantilla/ScrollHorizontal'
-import componentSlotMixins from '../mixins/componentSlotMixins'
+import ScrollHorizontal from '../bootstrap/ScrollHorizontal'
+import componentSlotMixins from '../bootstrap/componentSlotMixins'
 export default {
   name: 'SlyderE',
   components: { ScrollHorizontal },

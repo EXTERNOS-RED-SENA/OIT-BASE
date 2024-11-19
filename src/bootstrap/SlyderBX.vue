@@ -30,8 +30,8 @@
 </template>
 
 <script>
-import slyderMixins from '../mixins/slyderMixins'
-import ScrollHorizontal from './plantilla/ScrollHorizontal'
+import slyderMixins from '../bootstrap/slyderMixins'
+import ScrollHorizontal from '../bootstrap/ScrollHorizontal'
 export default {
   name: 'SlyderB',
   components: { ScrollHorizontal },
